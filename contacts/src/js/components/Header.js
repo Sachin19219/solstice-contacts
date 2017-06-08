@@ -12,7 +12,7 @@ export default class Header extends React.Component {
 		return (
 			<div class="ui fluid card" onClick={this.yo.bind(this)} >
 				<div class="content">
-        			<img class="left floated tiny ui image" src={this.props.contact.largeImageURL} />
+        			<img class="left floated tiny ui image" src={this.props.contact.smallImageURL} />
 					<div class="header">{this.props.contact.name}</div>
 					<div class="meta">{this.props.contact.phone.work}</div>
 				</div>
