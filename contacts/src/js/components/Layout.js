@@ -28,6 +28,10 @@ export default class Layout extends React.Component {
 	}
 
 	render() {
+		let fav = null;
+		if (this.state.current.favorite){
+			fav = <a class="ui yellow right corner label"><i class="star icon"></i></a>;
+		}
 		return (
 			<div class="ui padded stretched grid">
 				<div class="ui four wide column full-height">
@@ -37,6 +41,7 @@ export default class Layout extends React.Component {
 				</div>
 				<div class = "ui twelve wide column full-height">
 					<div class="ui raised padded text container segment">
+						{fav}
 						<div>
 							<img class="left floated medium ui image" src={this.state.current.largeImageURL}/>
 							<div class="ui hidden divider"></div>
