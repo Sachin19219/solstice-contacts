@@ -18,6 +18,6 @@ npm run dev
 Visit Solstice Contacts at localhost:8080
 
 # Dependecies List
-React 14.6 
-Webpack 1.12.9 
-Babel 6.17.0 
+- React 14.6 
+- Webpack 1.12.9 
+- Babel 6.17.0 
