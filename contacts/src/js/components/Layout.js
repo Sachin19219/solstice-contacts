@@ -1,7 +1,6 @@
 import React from "react";
 import Card from "./Card";
 import Detail from "./Detail";
-import Footer from "./Footer";
 import axios from 'axios';
 
 export default class Layout extends React.Component {
